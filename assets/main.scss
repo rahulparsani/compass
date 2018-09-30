@@ -36,7 +36,7 @@ a:hover {
 
 
 /*** main content list ***/
-.main-list-item {
+.social-item {
 	font-weight: bold;
 	font-size: 1.2em;
 	margin: 0.8em 0;
@@ -44,12 +44,14 @@ a:hover {
 
 /* override the left margin added by font awesome for the main content list,
 since it must be aligned with the content */
-.fa-ul.main-list {
+.social-container {
 	margin-left: 0;
+	text-align: center;
+	vertical-align: middle;
 }
 
 /* list icons */
-.main-list-item-icon {
+.social-item-icon {
 	width: 36px;
 	color: $text-color;
 }
@@ -82,7 +84,7 @@ since it must be aligned with the content */
 .tagline-container p {
 	font-size: 1.3em;
 	text-align: center;
-	margin-bottom: 2em;
+	margin-bottom: 1.3em;
 }
 
 /******/
@@ -132,7 +134,7 @@ footer {
 	aligned right */
 	header {
 		float: left;
-		width: 46%;
+		width: 30%;
 		text-align: right;
 	}
 
@@ -141,10 +143,13 @@ footer {
 	.tagline-container p {
 		text-align: right;
 	}
+	.social-container {
+		text-align: right;
+	}
 
 	main {
-		width: 46%;
-		margin-left: 54%;
+		width: 70%;
+		margin-left: 40%;
 		padding: 0;
 	}
 }
