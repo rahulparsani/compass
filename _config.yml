@@ -1,5 +1,5 @@
 # general configuration
-url: http://rahulparsani.github.io
+url: http://unrarp.github.io
 baseurl: ''
 
 # compass configuration
@@ -18,7 +18,7 @@ compass:
   # Tracking Code to that file.
   include_analytics: false
   # Twitter @username (as defined by the Twitter Card specs)
-  twitter: "sindhiparsani"
+  twitter: "unrarp"
 
 # exclude
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
